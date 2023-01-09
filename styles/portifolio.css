@@ -1,0 +1,410 @@
+:root{
+    --primary-color:#f6d6b4;
+    --secondary-color:#E9D5CE;
+    --third-color: #f08987;
+    --primary-font-color: #1d1d1d;
+    --secondary-font-color: #f6d6b4;
+    --primary-font:'Rubik', sans-serif;
+    --secondary-font: 'Rubik', sans-serif;
+}
+
+
+.hero h1{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    color: var(--primary-font-color);
+}
+
+.hero h2{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    color: var(--primary-font-color);
+}
+
+.hero p{
+    font-family: var(--primary-font);
+    font-size: 36px;
+    color: var(--primary-font-color);
+}
+
+.intro-hello p{
+    font-size: 25px;
+}
+
+.intro-hello{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.intro-hello .intro-name, .link-git{
+    color: var(--third-color);
+}
+
+.homepage-interests-overview{
+    margin-top: 450px;
+    color: var(--third-color);
+    padding: 10px 250px 10px 250px;
+}
+
+.homepage-interests-overview h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.homepage-interests-item{
+    text-align: center;
+}
+
+.interests-description{
+    margin: 10px 0px 0px 40px;
+    text-align: center;
+}
+
+.skill-icon{
+    font-size: 70px;
+    color: var(--primary-color);
+}
+
+.check-out-pro{
+    margin: 100px 0px 40px 0px;
+}
+
+.about-me-paragraph{
+margin-bottom: 80px;
+}
+
+.about-me-paragraph h1{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 82px;
+    color: var(--third-color) 
+}
+
+.about-me-paragraph h2{
+    font-family: var(--primary-font);
+    font-size: 35px;
+    margin: 0px 0px 30px 3px;
+    color: var(--primary-font-color);
+}
+
+.about-me-paragraph .clifton-strenghts{
+    text-align: right;
+    margin: 20px 82px 0px 0px;
+    font-size: 25px;
+}
+
+.clifton-strenghts-dot{
+    font-size: 30px;
+}
+
+.about-me-paragraph .btn{
+    margin-top: 100px;
+}
+
+.toolbox{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.toolbox i{
+font-size: 25px;
+}
+
+.about-me-paragraph .clifton-strenghts p{
+    font-size: 10px;
+}
+
+.resume-paragraph h1, .projects-paragraph h1{
+    color: var(--third-color);
+}
+
+.resume-paragraph h2, .projects-paragraph h2{
+    font-size: 18px;
+}
+
+.projects-paragraph p{
+    font-size: 18px; 
+}
+
+.project-section h3{
+    font-family: var(--primary-font);
+}
+
+p{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: var(--primary-font-color);
+    line-height: 1.5;
+}
+
+h2{
+    font-family: var(--secondary-font);
+    font-size: 25px;
+    color: var(--primary-font-color);
+}
+
+h4{
+    font-family: var(--secondary-font);
+    font-weight: 400px;
+}
+
+a{
+    color: var(--primary-font-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--secondary-font-color);
+}
+
+
+.body-border{
+    border: 15px solid white;
+    border-radius: 4px;
+}
+
+.btn-branding-outline{
+    color: var(--third-color);
+    border: 1px solid var(--third-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 15px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline:hover{
+    background: var(--third-color);;
+    color: white;
+    border: 1px solid var(--third-color);
+}
+
+.active{
+    color: var(--third-color) !important;
+}
+
+.navbar-brand{
+    font-family: var(--primary-font) !important;
+    font-size: 30px !important;
+    color: black !important;
+    margin-left: 30px !important;
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid var(--third-color);
+}
+
+.nav-item{
+    font-family: var(--primary-font) !important;
+    font-size: 20px !important;
+    padding: 0px 0px 5px 0px !important;
+    margin: 0px 20px 0px 20px !important;
+}
+
+.profile-image{
+    border-radius: 4px;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
+
+.resume-year{
+    color:#b9bbbd;
+}
+
+.resume-institute {
+    color: #f16f6d;
+}
+
+.resume-dot{
+    font-size: 60px;
+    font-family: var(--secondary-font);
+}
+
+.project-section h3{
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.project-section img{
+    border: 1px solid #EBEEFA;
+    width: 100%;
+    height: auto;
+}
+
+.project-section img:hover{
+    opacity: 0.6;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.project-image{
+    max-width: 350px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-image{
+    border-radius: 12px;
+    max-width: 450px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.85;
+}
+
+.contact-section{
+    margin: 60px 0px 180px 0px;
+}
+.contact-section p{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    line-height: 1px;
+    color: var(--primary-font-color);
+}
+
+.contact-section h1{
+    font-family: var(--secondary-font);
+    font-size: 70px;;
+    color: var(--third-color);
+}
+
+.contact-section h3{
+    font-family: var(--primary-font);
+    font-size: 25px;;
+    color: var(--primary-font-color);
+}
+
+.contact-section a:hover {
+    color: var(--secondary-font-color);
+}
+
+.contact-info h3{
+    margin: 45px 0px 20px 0px;
+}
+
+
+.get-in-touch-section{
+    text-align: center;
+    margin: 120px 0px 60px 0px;
+}
+
+.get-in-touch-box p{
+    font-size: 16px;
+    line-height: 01px;
+}
+
+.get-in-touch-box h4{
+    font-size: 50px;
+}
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    border: 15px solid var(--primary-color);
+    padding: 15px 30px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: #1d1d1d;
+}
+
+footer .social-links{
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-navigation{
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-navigation-item{
+    padding: 20px;
+}
+
+footer a:hover{
+    color: #747474;
+}
+
+footer .footer-signature{
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-links a{
+    margin: 0 7px;
+    font-size: 22px;
+    transition: all 100ms ease-in-out;
+}
+
+
+@media(max-width:1200px){
+    .homepage-interests-overview{
+        padding: 10px 100px 10px 100px;
+        margin-top: 350px;
+    }
+}
+
+
+@media(max-width: 960px){
+    .project-description{
+        text-align: center;
+    }
+
+    .homepage-interests-overview{
+        margin-top: 300px;
+    }
+
+    .homepage-interests-overview h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:770px){
+    .homepage-interests-overview{
+        padding: 10px 50px 10px 50px;
+    }
+
+    .about-me-txt-header{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .about-me-txt{
+        margin-top: 50px;
+    }
+
+    .contact-section h1{
+        font-size: 45px;
+    }
+
+    .contact-section h3{
+        font-size: 18px;
+    }
+
+    .contact-section p{
+        font-size: 15px;
+    }
+
+    footer{
+        padding-bottom: 40px;
+    }
+}
